@@ -8,10 +8,8 @@ html, body {
     color: #535353;
     font-size: 14px;
     font-family: sans-serif;
-    height: 100%;
     width: 100%;
     min-height: 600px;
-    overflow: hidden;
 }
 
 a, a:active, a:visited, li {
@@ -110,9 +108,7 @@ section {
 
 .container {
     width: 70%;
-    height: 100vh;
     margin-left: 30%;
-    overflow-y: scroll;
 }
 
 .wrapper {
