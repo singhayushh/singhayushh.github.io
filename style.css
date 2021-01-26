@@ -12,6 +12,7 @@ html, body {
     min-height: 600px;
 }
 
+/* TYPOGRAPHY */
 a, a:active, a:visited, li {
     list-style: none;
     color: #535353;
@@ -21,7 +22,7 @@ a, a:active, a:visited, li {
 h1 {
     width: max-content;
     font-size: 2rem;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 h3 {
@@ -30,6 +31,22 @@ h3 {
     margin: 10px auto;
 }
 
+.topic {
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.topic::after {
+    display: block;
+    height: 2px;
+    background-color: #535353a3;
+    content: " ";
+    width: 40px;
+    margin: 5px ;
+}
+
+/* NAVIGATION */
 nav {
     height: 100vh;
     width: 30%;
@@ -40,7 +57,6 @@ nav {
     z-index: 999;
     border-right: 1px solid #ebebeb;
 }
-
 
 .picture {
     height: 150px !important;
@@ -102,6 +118,7 @@ footer {
     transform: translateX(-50%);
 }
 
+/* CONTENT DIV FORMATTING */
 section {
     width: 100%;
 }
@@ -117,6 +134,7 @@ section {
     padding: 30px;
 }
 
+/* RESPONSIVENESS */
 @media only screen and (max-width: 650px) {
     nav {
         left: -225px;
