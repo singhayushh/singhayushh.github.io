@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: #535353;
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+a, a:active, a:visited, li {
+    list-style: none;
+    color: #535353;
+    text-decoration: none;
+}
+
+h1 {
+    width: max-content;
+    font-size: 2rem;
+    margin: 20px auto;
+}
+
+h3 {
+    width: max-content;
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+
+nav {
+    height: 100vh;
+    width: 30%;
+    min-width: 220px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    border-right: 1px solid #ebebeb;
+}
+
+
+.picture {
+    height: 150px !important;
+    width: 150px !important;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.picture img{
+    position: relative;
+    top: -75px;
+    left: -100px;
+    height: 350px;
+    width: 350px;
+}
+
+.group {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+
+.group .icons {
+    margin: 10px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.icons a {
+    margin: 0px 10px;
+}
+
+.menu {
+    padding: 0px 10px;
+    width: 150px;
+    margin: auto;
+}
+
+.menu li {
+    list-style: square;
+    margin: 10px 0px;
+}
+
+.foot-icon {
+    font-size: 18px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+footer {
+    font-size: 13px;
+    line-height: 1;
+    width: max-content;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin-left: 30%;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 650px) {
+    nav {
+        left: -225px;
+    }
+    .container {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
