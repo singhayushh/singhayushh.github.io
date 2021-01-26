@@ -170,7 +170,6 @@ section {
 }
 
 .wrapper {
-    min-height: 100vh;
     width: 100%;
     padding: 30px;
 }
