@@ -14,6 +14,19 @@ jQuery(document).ready(function($) {
         e.preventDefault();
     });
 
+    $('.nav-open').click(
+		function() {
+			if ($('nav').css('left') != '0px') {
+				$('nav').css({'left': '0px', 'width':'350px'});
+				$('.nav-open').html('<i class="fas fa-angle-left"></i>');
+			}
+			else {
+				$('nav').css({'left':'-225px', 'width': '225px'});
+				$('.nav-open').html('<i class="fa fa-bars"></i>');
+			}
+		}
+	);
+
     // Smooth scrolling
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
