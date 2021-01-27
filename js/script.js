@@ -14,6 +14,7 @@ jQuery(document).ready(function($) {
         e.preventDefault();
     });
 
+    // Mobile Navigation
     $('.nav-open').click(
 		function() {
 			if ($('nav').css('left') != '0px') {
