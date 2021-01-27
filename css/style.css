@@ -231,7 +231,18 @@ section {
 }
 
 .mobile-nav {
+    padding-top: 100px;
     display: none;
+}
+
+.mobile-nav .title {
+    z-index: 900;
+    width: 100%;
+    background-color: #FFF;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
 }
 
 .nav-open {
@@ -264,5 +275,11 @@ section {
     }
     .mobile-nav {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .project-box {
+        width: 95%;
     }
 }

@@ -25,7 +25,16 @@ jQuery(document).ready(function($) {
 				$('.nav-open').html('<i class="fa fa-bars"></i>');
 			}
 		}
-	);
+    );
+    
+    $(window).on('scroll', function() {
+        var stop = Math.round($(window).scrollTop());
+        if (stop > 120) {
+            $('.mobile-nav .title').css({'border-bottom':'1px solid #e1e4e8'});
+        } else {
+            $('.mobile-nav .title').css({'border-bottom' : 'none'});
+        }
+    });
 
     // Smooth scrolling
     $(function() {
