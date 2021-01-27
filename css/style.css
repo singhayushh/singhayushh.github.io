@@ -86,6 +86,32 @@ strong {
     letter-spacing: 0.5px;
 }
 
+.project-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.project-desc {
+    color: #41455c;
+    margin: 15px 0px 20px 0px;
+}
+
+.project-lang {
+    color: #41455c;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.label {
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
 /* NAVIGATION */
 nav {
     height: 100vh;
@@ -94,7 +120,8 @@ nav {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 999;
+    z-index: 997;
+    background-color: #FFF;
     border-right: 1px solid #ebebeb;
 }
 
@@ -203,6 +230,29 @@ section {
     border-color: #1b1f2326;
 }
 
+.mobile-nav {
+    display: none;
+}
+
+.nav-open {
+    position: fixed;
+    left: 20px;
+    top: 28px;
+    z-index: 999;
+}
+
+.project-box {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 16px;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    width: 45%;
+    margin: 8px;
+}
+
 /* RESPONSIVENESS */
 @media only screen and (max-width: 650px) {
     nav {
@@ -211,5 +261,8 @@ section {
     .container {
         width: 100%;
         margin-left: 0px;
+    }
+    .mobile-nav {
+        display: block;
     }
 }
