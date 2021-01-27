@@ -31,9 +31,9 @@ jQuery(document).ready(function($) {
     $(window).on('scroll', function() {
         var stop = Math.round($(window).scrollTop());
         if (stop > 120) {
-            $('.mobile-nav .title').css({'border-bottom':'1px solid #e1e4e8'});
+            $('.mobile-nav .title').css({'border-bottom-color':'#e1e4e8'});
         } else {
-            $('.mobile-nav .title').css({'border-bottom' : 'none'});
+            $('.mobile-nav .title').css({'border-bottom-color' : 'transparent'});
         }
     });
 
