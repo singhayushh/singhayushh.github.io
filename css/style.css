@@ -243,6 +243,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     position: fixed;
+    border-bottom:1px solid transparent;
 }
 
 .nav-open {
