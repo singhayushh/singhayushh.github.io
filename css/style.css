@@ -92,7 +92,7 @@ strong {
 }
 
 .project-desc {
-    color: #41455c;
+    color: #41455ccc;
     margin: 15px 0px 20px 0px;
 }
 
@@ -245,6 +245,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     position: fixed;
+    border-bottom:1px solid transparent;
 }
 
 .nav-open {
