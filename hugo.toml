@@ -1,0 +1,166 @@
+baseURL = "https://singhayushh.github.io/"
+title = "Arc"
+paginate = 5
+enableRobotsTXT = false
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Arc"
+description = "Arc lives here at nights."
+keywords = [ "Blog", "Portfolio", "Arc", "singhayushh" ]
+author = "Arc"
+images = [ "/not-me.jpg" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "dark"
+disableThemeToggle = true
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.assets]
+  favicon = "/pumpkin.ico"
+  favicon16x16 = "/pumpkin-16x16.ico"
+  favicon32x32 = "/pumpkin-32x32.ico"
+  apple_touch_icon = "/pumpkin.png"
+  safari_pinned_tab = "/pumpkin.png"
+
+  [params.label]
+  text = "Arc"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "Arc"
+  subtitle = "In a recurring cycle of closeness and distancing."
+  imageUrl = "/not-me.jpg"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "Not me"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Where else can you find me?"
+  Content = "I'm not really much into social media, and I tend to keep to myself most of the time. But in case you're curious, I do have a few online accounts on different platforms. These are just places where you might find me occasionally, liking and curating the things I'm choosy about."
+
+  [[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/arc.qq/"
+
+  [[params.socialIcons]]
+  name = "pinterest"
+  url = "https://in.pinterest.com/arc_qq/"
+
+  [[params.socialIcons]]
+  name = "spotify"
+  url = "https://open.spotify.com/user/31zzbcktppvvaa6s3x7fuwxf4nqq"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/arcqq/"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/singhayushh"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/_arcqq"
+
+  [[params.socialIcons]]
+  name = "tumblr"
+  url = "https://www.tumblr.com/arcqq"
+
+  [[params.socialIcons]]
+  name = "buymeacoffee"
+  url = "https://www.buymeacoffee.com/arc.qq"
+
+  [[params.socialIcons]]
+  name = "bilibili"
+  url = "https://www.bilibili.tv/en/space/1477040124"
+
+  [[params.socialIcons]]
+  name = "twitch"
+  url = "https://www.twitch.tv/arc_qq"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/singhayushh/singhayushh.github.io/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "blogs"
+name = "Blogs"
+url = "/blogs/"
+weight = 20
+
+[[menu.main]]
+identifier = "reading"
+name = "Reading"
+url = "/reading/"
+weight = 30
+
+[[menu.main]]
+identifier = "music"
+name = "Music"
+url = "/music/"
+weight = 30
+
+[markup.highlight]
+noClasses = false
