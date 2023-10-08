@@ -126,7 +126,7 @@ SiteVerificationTag = "XYZabc"
 
   [params.editPost]
   URL = "https://github.com/singhayushh/singhayushh.github.io/content"
-  Text = "Suggest Changes"
+  Text = "Rant about this post."
   appendFilePath = true
 
   [params.fuseOpts]
