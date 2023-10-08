@@ -1,1 +1,6 @@
+---
+showBlogs: true
+---
+
 # Recent writings
+
