@@ -14,7 +14,7 @@ minifyOutput = true
 [params]
 env = "production"
 title = "Arc"
-description = "Arc lives here at nights."
+description = "I live here at nights."
 keywords = [ "Blog", "Portfolio", "Arc", "singhayushh" ]
 author = "Arc"
 images = [ "/not-me.jpg" ]
