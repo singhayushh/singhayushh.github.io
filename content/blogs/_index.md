@@ -3,4 +3,3 @@ showBlogs: true
 ---
 
 # Recent writings
-
