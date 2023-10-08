@@ -47,7 +47,7 @@ Dark side of anarchism is of course, since there is no form of governing body, t
 
 Another ideology that focuses more on individual freedom - Liberalism does believe in the necessity of a government though, but the government is limited to only protecting their individual rights and providing those services I mentioned above.
 
-With liberalism limiting the government's involvement in economic control, downside will be very similar to that of capitalism - economic unequality, plus individuals and business exploiting resources for their profit (as they are free to do it) leaving the future generation and environemnt in risk.
+With liberalism limiting the government's involvement in economic control, downside will be very similar to that of capitalism - economic unequality, plus individuals and business exploiting resources for their profit (as they are free to do it) leaving the future generation and environment in risk.
 
 ## 7. Socialism
 

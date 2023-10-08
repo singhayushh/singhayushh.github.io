@@ -125,9 +125,9 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/singhayushh/singhayushh.github.io/content"
+  URL = "https://github.com/singhayushh/singhayushh.github.io/discussions/new?category=rants"
   Text = "Rant about this post."
-  appendFilePath = true
+  appendFilePath = false
 
   [params.fuseOpts]
   isCaseSensitive = false
