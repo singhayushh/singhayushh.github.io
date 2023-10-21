@@ -1,1 +1,11 @@
-# What am I listening
+| Playing | | | | |
+| --- | --- | --- | --- | --- |
+| | | [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31zzbcktppvvaa6s3x7fuwxf4nqq&cover_image=true&theme=default&show_offline=false&background_color=1d1e20&interchange=false&bar_color=dadadb&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=31zzbcktppvvaa6s3x7fuwxf4nqq&redirect=true) | | |
+
+| Songs | | | | |
+| --- | --- | --- | --- | --- |
+| ![Revenge](https://i.scdn.co/image/ab67616d0000b273203c89bd4391468eea4cc3f5) [Revenge](https://open.spotify.com/track/5TXDeTFVRVY7Cvt0Dw4vWW) | ![Bleeding Out](https://i.scdn.co/image/ab67616d0000b27356f2a57b4eb13e202d87144a) [Bleeding Out](https://open.spotify.com/track/7BhOH16ud5ybFUeP3wwhby) | ![Daylight](https://i.scdn.co/image/ab67616d0000b27395ca6a9b4083a86c149934ae) [Daylight](https://open.spotify.com/track/1odExI7RdWc4BT515LTAwj) | ![WYD Now?](https://i.scdn.co/image/ab67616d0000b2732b6d5422dcc76dd13a172c29) [WYD Now?](https://open.spotify.com/track/3ZBeHiRJUj1vdiU8zzGPgb) | ![Hi Ren](https://i.scdn.co/image/ab67616d0000b27318b659271a67829e6b766114) [Hi Ren](https://open.spotify.com/track/0FLwYQoXvX8q5iRZnFX59u) |
+
+| Artists | | | | |
+| --- | --- | --- | --- | --- |
+| ![Billie Eilish](https://i.scdn.co/image/ab6761610000e5ebd8b9980db67272cb4d2c3daf) [Billie Eilish](https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH) | ![Clairo](https://i.scdn.co/image/ab6761610000e5eb370f4e30deba6da178db36fe) [Clairo](https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag) | ![Paris Paloma](https://i.scdn.co/image/ab6761610000e5eb4d1920c21439d7ff268fc9da) [Paris Paloma](https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp) | ![Conan Gray](https://i.scdn.co/image/ab6761610000e5ebc1c8fa15e08cb31eeb03b771) [Conan Gray](https://open.spotify.com/artist/4Uc8Dsxct0oMqx0P6i60ea) | ![Justin Bieber](https://i.scdn.co/image/ab6761610000e5eb8ae7f2aaa9817a704a87ea36) [Justin Bieber](https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s) |
